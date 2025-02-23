@@ -30,7 +30,6 @@ def get_ascii_art(string, rows=5):
 				out += '\t'
 		out[count] = out[count][:-1]
 		count += 1
-	print(out)
 	return out
 
 def print_bitmap(bitmap):
